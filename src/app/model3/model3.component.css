@@ -1,0 +1,45 @@
+#header-model3{
+    background: gray;
+    overflow: auto;
+}
+#tesla{
+    float:left;
+}
+#headButtons{
+    float: right;
+}
+
+.tds-header-nav {
+        position: absolute;
+        top: 17px;
+        left: 350px;
+    }
+     li {
+        display: inline;
+        margin-right: 30px;
+        /* font-family: Gotham Medium,system,sans-serif; */
+        font-family: var(--tds-sans-font_stack--medium);
+        cursor: pointer;
+        line-height: 1.25;
+        color:white;
+    }
+    #headButtons {
+        position: absolute;
+        top: 35px;
+        right: 150px;
+    }
+    button#shop {
+        margin-right: 10px;
+    }
+    #hideBar {
+        position: absolute;
+        right: 10px;
+        top: 20px;
+    }
+    #hideBar nav ul li {
+        list-style: none;
+    }
+    img{
+        width: 700px;
+        height: 700px;
+    }
