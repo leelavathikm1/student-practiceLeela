@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./parent1.component.css']
 })
 export class Parent1Component implements OnInit {
-  public employeName="Iam From Parent To Child";
+  public employeName ="Iam From Parent To Child";
   public message="";
   constructor() { }
 
